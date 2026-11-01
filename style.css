@@ -1,0 +1,87 @@
+/* Zadanie 9 i 10 */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #2D2D2DFF;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+form {
+    background: #1F1F1FFF;
+    padding: 25px;
+    border-radius: 8px;
+    width: 400px;
+    box-sizing: border-box;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.30);
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] + label {
+    font-size: 14px;
+    margin-right: 8px;
+    display: inline;
+    color: white
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #828282FF;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: 2px solid #0099FF;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+.error-text {
+    color: #ff1919;
+    font-size: 12px;
+}
+
+small {
+    font-size: 12px;
+    color: #828282FF;
+}
